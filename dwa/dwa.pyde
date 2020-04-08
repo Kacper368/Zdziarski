@@ -2,52 +2,33 @@
 def setup():
     size(400,400)
     frameRate(60)  
-    global slownik_kolorow            
+    global slownik_kolorow, x, y, xruch, yruch # możliwy jest też taki zapis     
                                       
     slownik_kolorow = {"czerwony":(255,0,0, 80), "niebieski":(0,0,255,80)} 
-      
-    global x
     x = 200 
-    
-    global y 
     y = 0
-    
-    global xruch
     xruch = 5
-    
-    global yruch
     yruch = 5
 
     
 def draw():
 
-    global x 
-    x=x + xruch
-
-    global y 
-    y=y + yruch
+    global x, y, xruch, yruch
+    x += xruch
+    y += yruch
     
     if x > width or x < 0:
-        global xruch
         xruch*=-1
         fill(*slownik_kolorow["czerwony"])
         
     if y > width or y < 0:
-        global yruch
         yruch*=-1
         fill(*slownik_kolorow["niebieski"])
-        
-        
+            
     ellipse(x,y,66,66)
 
-
-
-    
-    
-    
-    
-    
-    
-    
     if mousePressed:
-        exit() 
+        exit()
+        
+# 2 pkt
+        
