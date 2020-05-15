@@ -41,4 +41,5 @@ def draw():
     Drzwi_kordy.rysuj()
     Klamka_kordy.rysuj()
     print(Klamka.ile_bylo_klikane_Klamka)
-    
+
+#1,75p trochę mało twóczo :(
