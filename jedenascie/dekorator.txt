@@ -1,1 +1,4 @@
 Restauracja oferuje w swoim menu dania na wagę. Klient sam komponuje swoje danie z różnych kompozytów, po czym płaci za danie w zależności od jego wagi (cena wynosi określoną cenę bazową i rośnie za każde 50g dania). Restauracja nie wypisuje jednak w swoim menu oddzielnych pozycji do każdej wagi dania, ponieważ pozycji mogłoby wyjść nieskończoność, a to byłoby bardzo niekorzystne dla budżetu. W zamian restauracja wypisała na tablicy informację, że każde danie kosztuje określoną cenę bazową plus dodatkową opłatę za każde 50g dania, co ostatecznie ograniczyło menu do jednej informacji, a nie absurdalnej ilości wymienionych pozycji.
+DLACZEGO NIEKONIECZNIE:
+Czy móżna kupić danie bez wagi? Nie wynika z treści, a powinno się, zeby było dekoratorem. Niesty koledzy nie byli zgodni, choć w moim odczuciu i tak bardziej pasuje do dekoratora niż pełnomocnika.
+1,25pkt
