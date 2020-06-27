@@ -58,19 +58,21 @@ def setup():
             if mouseY >40 and mouseY <60:
                 library.addBook(Kacper.returnBook())
             
-    import unittest
+import unittest
 
-    class Test(unittest.TestCase): 
+class Test(unittest.TestCase): 
     
-        def test_kolejnosci(self):
-            ksiazki = ["Balladyna ", "Wesele", "Chlopi"]
+    def test_kolejnosci(self):
+            ksiazki = ["Balladyna", "Wesele", "Chlopi"] # spacja w cudzysłowie za nazwą spowodowaą błąd - listy się różniły
             result = sorted(ksiazki)
             self.assertEqual(result, ["Balladyna", "Chlopi", "Wesele"]) 
         
-        def test_ilosci(self):
+    def test_ilosci(self):
             ksiazki = ['Balladyna ', 'Chlopi', 'Wesele']
             result = len(ksiazki)
             self.assertNotEqual(result, 5)
-                
 
+if __name__ == '__main__':
+    unittest.main()
     
+# 1pkt, nie używasz klas z kodu, testujesz wbudowane metody Pythona
