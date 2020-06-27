@@ -40,7 +40,7 @@ def setup():
     global library, Kacper
     books = ["Naocznosc", "Sens Sztuki", "Harry Potter","Programming for dummies"]
     library = Library(books) 
-    Kacper = Customer()
+    Kacper = Customer() # zastąpiłeś zamiast dodać
     
 def draw():
     library.displayAvailableBooks()
@@ -57,3 +57,5 @@ def mouseClicked():
             library.lendBook(Kacper.requestBook("Programming for dummies"))
         if mouseY >40 and mouseY <60:
             library.addBook(Kacper.returnBook())
+            
+# 0,25/0,5pkt za tą część
